@@ -524,6 +524,11 @@ csrs32 = [
   (0xB9D, 'mhpmcounter29h'),
   (0xB9E, 'mhpmcounter30h'),
   (0xB9F, 'mhpmcounter31h'),
+
+  # Vortex
+  (0xFC0, 'vortex_nt'),
+  (0xFC1, 'vortex_nw'),
+  (0xFC2, 'vortex_nc'),
 ]
 
 # look up table of position of various arguments that are used by the
